@@ -25,4 +25,12 @@
 * Chỉ định lấy ra thay đổi
 > git stash apply stash@{1}
 * Xoá stash
-> git drop stash@{1}
+> git stash drop stash@{1}
+* Tạo branch trên stash
+> git stash branch
+
+### Tích hợp dữ liệuliệu
+* Trở về master
+> git checkout master
+* Tích hợp dữ liệu
+> git merge {name branch}
