@@ -1,7 +1,11 @@
 ## Git basic
 ### Branch
 * Tạo mới branch
-> git chechout -b {name branch} && git branch {name branch}
+>git branch {name branch}
+* Chuyển sang nhánh
+> git checkout {name branch}
+* Tạo mới và chuyển sang nhánh mới
+> git chechout -b {name branch} && 
 * Tạo empty commit
 > git commit --allow-empty "[start] [skip ci] {title task} {URL task}"
 * Delete branch
